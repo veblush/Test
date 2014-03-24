@@ -1,4 +1,4 @@
-extern mod LinkedList = "github.com/veblush/Test/LinkedList"; // "LinkedList#0.1";
+extern mod LinkedList = "github.com/veblush/Test/tree/master/LinkedList#LinkedList:0.1";
 
 use LinkedList::{List, print};
 

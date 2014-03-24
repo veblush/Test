@@ -1,4 +1,6 @@
 #[crate_id = "LinkedList#0.1"];
+#[desc = "A Test LinkedList Oackage."];
+#[license = "MIT"];
 
 #[deriving(Clone)]
 pub enum Node<T> {
@@ -51,3 +53,4 @@ pub fn print<T: ::std::fmt::Default + Clone>(list: &List<T>) {
         println!("{}", *i);
     }
 }
+
